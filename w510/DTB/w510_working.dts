@@ -1,0 +1,16 @@
+/dts-v1/;
+
+/ {
+	#size-cells = <0x02>;
+	#address-cells = <0x02>;
+
+	chosen {
+		linux,uefi-secure-boot = <0x02>;
+		linux,uefi-mmap-desc-ver = <0x01>;
+		linux,uefi-mmap-desc-size = <0x30>;
+		linux,uefi-mmap-size = <0x1080>;
+		linux,uefi-mmap-start = <0x00 0x304a0040>;
+		linux,uefi-system-table = <0x00 0x3edf0018>;
+		bootargs = "BOOT_IMAGE=/vmlinuz-6.8.0-71-generic root=/dev/mapper/ubuntu--vg-ubuntu--lv ro initcall_blacklist=hisi_ddrc_pmu_module_init initcall_blacklist=hisi_ddrc_pmu_module_init";
+	};
+};

@@ -1,0 +1,70 @@
+00:00.0 PCI bridge: Huawei Technologies Co., Ltd. HiSilicon PCIe Root Port with Gen4 (rev 21)
+	Subsystem: Huawei Technologies Co., Ltd. HiSilicon PCIe Root Port with Gen4
+	Kernel driver in use: pcieport
+00:08.0 PCI bridge: Huawei Technologies Co., Ltd. HiSilicon PCIe Root Port with Gen4 (rev 21)
+	Subsystem: Huawei Technologies Co., Ltd. HiSilicon PCIe Root Port with Gen4
+	Kernel driver in use: pcieport
+00:0a.0 PCI bridge: Huawei Technologies Co., Ltd. HiSilicon PCIe Root Port with Gen4 (rev 21)
+	Subsystem: Huawei Technologies Co., Ltd. HiSilicon PCIe Root Port with Gen4
+	Kernel driver in use: pcieport
+00:0c.0 PCI bridge: Huawei Technologies Co., Ltd. HiSilicon PCIe Root Port with Gen4 (rev 21)
+	Subsystem: Huawei Technologies Co., Ltd. HiSilicon PCIe Root Port with Gen4
+	Kernel driver in use: pcieport
+00:0d.0 PCI bridge: Huawei Technologies Co., Ltd. HiSilicon PCIe Root Port with Gen4 (rev 21)
+	Subsystem: Huawei Technologies Co., Ltd. HiSilicon PCIe Root Port with Gen4
+	Kernel driver in use: pcieport
+00:0e.0 PCI bridge: Huawei Technologies Co., Ltd. HiSilicon PCIe Root Port with Gen4 (rev 21)
+	Subsystem: Huawei Technologies Co., Ltd. HiSilicon PCIe Root Port with Gen4
+	Kernel driver in use: pcieport
+00:0f.0 PCI bridge: Huawei Technologies Co., Ltd. HiSilicon PCIe Root Port with Gen4 (rev 21)
+	Subsystem: Huawei Technologies Co., Ltd. HiSilicon PCIe Root Port with Gen4
+	Kernel driver in use: pcieport
+01:00.0 VGA compatible controller: Advanced Micro Devices, Inc. [AMD/ATI] Oland [Radeon HD 8570 / R5 430 OEM / R7 240/340 / Radeon 520 OEM] (rev 87)
+	Subsystem: Bitland(ShenZhen) Information Technology Co., Ltd. Oland [Radeon HD 8570 / R5 430 OEM / R7 240/340 / Radeon 520 OEM]
+	Kernel driver in use: radeon
+	Kernel modules: radeon, amdgpu
+01:00.1 Audio device: Advanced Micro Devices, Inc. [AMD/ATI] Oland/Hainan/Cape Verde/Pitcairn HDMI Audio [Radeon HD 7000 Series]
+	Subsystem: Bitland(ShenZhen) Information Technology Co., Ltd. Oland/Hainan/Cape Verde/Pitcairn HDMI Audio [Radeon HD 7000 Series]
+	Kernel driver in use: snd_hda_intel
+	Kernel modules: snd_hda_intel
+03:00.0 Non-Volatile memory controller: Samsung Electronics Co Ltd NVMe SSD Controller SM981/PM981/PM983
+	Subsystem: Samsung Electronics Co Ltd SSD 970 EVO/PRO
+	Kernel driver in use: nvme
+	Kernel modules: nvme
+04:00.0 Network controller: Huawei Technologies Co., Ltd. Device 1103 (rev 02)
+	Subsystem: Huawei Technologies Co., Ltd. Device 0000
+05:00.0 USB controller: Renesas Technology Corp. uPD720202 USB 3.0 Host Controller (rev 02)
+	Subsystem: Huawei Technologies Co., Ltd. uPD720202 USB 3.0 Host Controller
+	Kernel driver in use: xhci_hcd
+	Kernel modules: xhci_pci
+74:00.0 PCI bridge: Huawei Technologies Co., Ltd. HiSilicon PCI-PCI Bridge (rev 20)
+	Kernel driver in use: pcieport
+74:01.0 PCI bridge: Huawei Technologies Co., Ltd. HiSilicon PCI-PCI Bridge (rev 20)
+	Kernel driver in use: pcieport
+74:02.0 Serial Attached SCSI controller: Huawei Technologies Co., Ltd. HiSilicon SAS 3.0 HBA (rev 21)
+	Kernel driver in use: hisi_sas_v3_hw
+	Kernel modules: hisi_sas_v3_hw
+74:03.0 SATA controller: Huawei Technologies Co., Ltd. HiSilicon AHCI HBA (rev 21)
+	Kernel driver in use: ahci
+	Kernel modules: ahci
+74:04.0 Serial Attached SCSI controller: Huawei Technologies Co., Ltd. HiSilicon SAS 3.0 HBA (rev 21)
+	Kernel driver in use: hisi_sas_v3_hw
+	Kernel modules: hisi_sas_v3_hw
+76:00.0 Network and computing encryption device: Huawei Technologies Co., Ltd. HiSilicon SEC Engine (rev 21)
+	Kernel modules: hisi_sec2
+78:00.0 PCI bridge: Huawei Technologies Co., Ltd. HiSilicon PCI-PCI Bridge (rev 20)
+	Kernel driver in use: pcieport
+78:01.0 RAID bus controller: Huawei Technologies Co., Ltd. HiSilicon RDE Engine (rev 21)
+7a:00.0 USB controller: Huawei Technologies Co., Ltd. HiSilicon USB 1.1 Host Controller (rev 21)
+	Kernel driver in use: ohci-pci
+7a:01.0 USB controller: Huawei Technologies Co., Ltd. HiSilicon USB 2.0 2-port Host Controller (rev 21)
+	Kernel driver in use: ehci-pci
+7a:02.0 USB controller: Huawei Technologies Co., Ltd. HiSilicon USB 3.0 Host Controller (rev 21)
+	Kernel driver in use: xhci_hcd
+	Kernel modules: xhci_pci
+7b:00.0 System peripheral: Huawei Technologies Co., Ltd. HiSilicon Embedded DMA Engine (rev 21)
+7c:00.0 PCI bridge: Huawei Technologies Co., Ltd. HiSilicon PCI-PCI Bridge (rev 20)
+	Kernel driver in use: pcieport
+7d:00.0 Ethernet controller: Huawei Technologies Co., Ltd. HNS GE/10GE/25GE RDMA Network Controller (rev 21)
+	Kernel driver in use: hns3
+	Kernel modules: hns3, hclge, hns_roce_hw_v2
