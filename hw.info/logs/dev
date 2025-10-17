@@ -1,0 +1,624 @@
+/dev
+/dev/autofs
+/dev/block
+/dev/block/11:0 -> ../sr0
+/dev/block/252:0 -> ../dm-0
+/dev/block/252:1 -> ../dm-1
+/dev/block/259:0 -> ../nvme0n1
+/dev/block/259:1 -> ../nvme0n1p1
+/dev/block/259:2 -> ../nvme0n1p2
+/dev/block/259:3 -> ../nvme0n1p3
+/dev/block/7:0 -> ../loop0
+/dev/block/7:1 -> ../loop1
+/dev/block/7:10 -> ../loop10
+/dev/block/7:11 -> ../loop11
+/dev/block/7:12 -> ../loop12
+/dev/block/7:13 -> ../loop13
+/dev/block/7:14 -> ../loop14
+/dev/block/7:15 -> ../loop15
+/dev/block/7:16 -> ../loop16
+/dev/block/7:2 -> ../loop2
+/dev/block/7:3 -> ../loop3
+/dev/block/7:4 -> ../loop4
+/dev/block/7:5 -> ../loop5
+/dev/block/7:6 -> ../loop6
+/dev/block/7:7 -> ../loop7
+/dev/block/7:8 -> ../loop8
+/dev/block/7:9 -> ../loop9
+/dev/block/8:0 -> ../sda
+/dev/block/8:1 -> ../sda1
+/dev/bsg
+/dev/bsg/1:0:0:0
+/dev/bsg/2:0:0:0
+/dev/bsg/sas_host0
+/dev/bsg/sas_host3
+/dev/btrfs-control
+/dev/bus
+/dev/bus/usb
+/dev/bus/usb/001
+/dev/bus/usb/001/001
+/dev/bus/usb/002
+/dev/bus/usb/002/001
+/dev/bus/usb/002/002
+/dev/bus/usb/003
+/dev/bus/usb/003/001
+/dev/bus/usb/003/002
+/dev/bus/usb/003/003
+/dev/bus/usb/004
+/dev/bus/usb/004/001
+/dev/bus/usb/004/002
+/dev/bus/usb/005
+/dev/bus/usb/005/001
+/dev/bus/usb/005/002
+/dev/bus/usb/006
+/dev/bus/usb/006/001
+/dev/bus/usb/006/002
+/dev/cdrom -> sr0
+/dev/char
+/dev/char/108:0 -> ../ppp
+/dev/char/10:1 -> ../psaux
+/dev/char/10:123 -> ../cpu_dma_latency
+/dev/char/10:124 -> ../udmabuf
+/dev/char/10:125 -> ../ecryptfs
+/dev/char/10:126 -> ../userfaultfd
+/dev/char/10:127 -> ../vga_arbiter
+/dev/char/10:183 -> ../hwrng
+/dev/char/10:200 -> ../net/tun
+/dev/char/10:223 -> ../uinput
+/dev/char/10:229 -> ../fuse
+/dev/char/10:232 -> ../kvm
+/dev/char/10:234 -> ../btrfs-control
+/dev/char/10:235 -> ../autofs
+/dev/char/10:236 -> ../mapper/control
+/dev/char/10:237 -> ../loop-control
+/dev/char/10:242 -> ../rfkill
+/dev/char/116:1 -> ../snd/seq
+/dev/char/116:10 -> ../snd/controlC1
+/dev/char/116:2 -> ../snd/pcmC0D3p
+/dev/char/116:3 -> ../snd/hwC0D0
+/dev/char/116:33 -> ../snd/timer
+/dev/char/116:4 -> ../snd/controlC0
+/dev/char/116:5 -> ../snd/pcmC1D0p
+/dev/char/116:6 -> ../snd/pcmC1D0c
+/dev/char/116:7 -> ../snd/pcmC1D1p
+/dev/char/116:8 -> ../snd/pcmC1D1c
+/dev/char/116:9 -> ../snd/pcmC1D2c
+/dev/char/13:63 -> ../input/mice
+/dev/char/13:64 -> ../input/event0
+/dev/char/13:65 -> ../input/event1
+/dev/char/13:66 -> ../input/event2
+/dev/char/189:0 -> ../bus/usb/001/001
+/dev/char/189:128 -> ../bus/usb/002/001
+/dev/char/189:129 -> ../bus/usb/002/002
+/dev/char/189:256 -> ../bus/usb/003/001
+/dev/char/189:257 -> ../bus/usb/003/002
+/dev/char/189:258 -> ../bus/usb/003/003
+/dev/char/189:384 -> ../bus/usb/004/001
+/dev/char/189:385 -> ../bus/usb/004/002
+/dev/char/189:512 -> ../bus/usb/005/001
+/dev/char/189:513 -> ../bus/usb/005/002
+/dev/char/189:640 -> ../bus/usb/006/001
+/dev/char/189:641 -> ../bus/usb/006/002
+/dev/char/1:1 -> ../mem
+/dev/char/1:11 -> ../kmsg
+/dev/char/1:3 -> ../null
+/dev/char/1:4 -> ../port
+/dev/char/1:5 -> ../zero
+/dev/char/1:7 -> ../full
+/dev/char/1:8 -> ../random
+/dev/char/1:9 -> ../urandom
+/dev/char/204:64 -> ../ttyAMA0
+/dev/char/21:0 -> ../sg0
+/dev/char/21:1 -> ../sg1
+/dev/char/226:0 -> ../dri/card0
+/dev/char/226:128 -> ../dri/renderD128
+/dev/char/231:192 -> ../infiniband/uverbs0
+/dev/char/235:0 -> ../ng0n1
+/dev/char/236:0 -> ../nvme0
+/dev/char/237:0 -> ../hidraw0
+/dev/char/242:0 -> ../bsg/sas_host0
+/dev/char/242:1 -> ../bsg/1:0:0:0
+/dev/char/242:2 -> ../bsg/sas_host3
+/dev/char/242:3 -> ../bsg/2:0:0:0
+/dev/char/247:0 -> ../rtc0
+/dev/char/248:0 -> ../dma_heap/system
+/dev/char/248:1 -> ../dma_heap/reserved
+/dev/char/254:0 -> ../gpiochip0
+/dev/char/254:1 -> ../gpiochip1
+/dev/char/254:2 -> ../gpiochip2
+/dev/char/4:0 -> ../tty0
+/dev/char/4:1 -> ../tty1
+/dev/char/4:10 -> ../tty10
+/dev/char/4:11 -> ../tty11
+/dev/char/4:12 -> ../tty12
+/dev/char/4:13 -> ../tty13
+/dev/char/4:14 -> ../tty14
+/dev/char/4:15 -> ../tty15
+/dev/char/4:16 -> ../tty16
+/dev/char/4:17 -> ../tty17
+/dev/char/4:18 -> ../tty18
+/dev/char/4:19 -> ../tty19
+/dev/char/4:2 -> ../tty2
+/dev/char/4:20 -> ../tty20
+/dev/char/4:21 -> ../tty21
+/dev/char/4:22 -> ../tty22
+/dev/char/4:23 -> ../tty23
+/dev/char/4:24 -> ../tty24
+/dev/char/4:25 -> ../tty25
+/dev/char/4:26 -> ../tty26
+/dev/char/4:27 -> ../tty27
+/dev/char/4:28 -> ../tty28
+/dev/char/4:29 -> ../tty29
+/dev/char/4:3 -> ../tty3
+/dev/char/4:30 -> ../tty30
+/dev/char/4:31 -> ../tty31
+/dev/char/4:32 -> ../tty32
+/dev/char/4:33 -> ../tty33
+/dev/char/4:34 -> ../tty34
+/dev/char/4:35 -> ../tty35
+/dev/char/4:36 -> ../tty36
+/dev/char/4:37 -> ../tty37
+/dev/char/4:38 -> ../tty38
+/dev/char/4:39 -> ../tty39
+/dev/char/4:4 -> ../tty4
+/dev/char/4:40 -> ../tty40
+/dev/char/4:41 -> ../tty41
+/dev/char/4:42 -> ../tty42
+/dev/char/4:43 -> ../tty43
+/dev/char/4:44 -> ../tty44
+/dev/char/4:45 -> ../tty45
+/dev/char/4:46 -> ../tty46
+/dev/char/4:47 -> ../tty47
+/dev/char/4:48 -> ../tty48
+/dev/char/4:49 -> ../tty49
+/dev/char/4:5 -> ../tty5
+/dev/char/4:50 -> ../tty50
+/dev/char/4:51 -> ../tty51
+/dev/char/4:52 -> ../tty52
+/dev/char/4:53 -> ../tty53
+/dev/char/4:54 -> ../tty54
+/dev/char/4:55 -> ../tty55
+/dev/char/4:56 -> ../tty56
+/dev/char/4:57 -> ../tty57
+/dev/char/4:58 -> ../tty58
+/dev/char/4:59 -> ../tty59
+/dev/char/4:6 -> ../tty6
+/dev/char/4:60 -> ../tty60
+/dev/char/4:61 -> ../tty61
+/dev/char/4:62 -> ../tty62
+/dev/char/4:63 -> ../tty63
+/dev/char/4:64 -> ../ttyS0
+/dev/char/4:65 -> ../ttyS1
+/dev/char/4:66 -> ../ttyS2
+/dev/char/4:67 -> ../ttyS3
+/dev/char/4:68 -> ../ttyS4
+/dev/char/4:69 -> ../ttyS5
+/dev/char/4:7 -> ../tty7
+/dev/char/4:70 -> ../ttyS6
+/dev/char/4:71 -> ../ttyS7
+/dev/char/4:72 -> ../ttyS8
+/dev/char/4:73 -> ../ttyS9
+/dev/char/4:74 -> ../ttyS10
+/dev/char/4:75 -> ../ttyS11
+/dev/char/4:76 -> ../ttyS12
+/dev/char/4:77 -> ../ttyS13
+/dev/char/4:78 -> ../ttyS14
+/dev/char/4:79 -> ../ttyS15
+/dev/char/4:8 -> ../tty8
+/dev/char/4:80 -> ../ttyS16
+/dev/char/4:81 -> ../ttyS17
+/dev/char/4:82 -> ../ttyS18
+/dev/char/4:83 -> ../ttyS19
+/dev/char/4:84 -> ../ttyS20
+/dev/char/4:85 -> ../ttyS21
+/dev/char/4:86 -> ../ttyS22
+/dev/char/4:87 -> ../ttyS23
+/dev/char/4:88 -> ../ttyS24
+/dev/char/4:89 -> ../ttyS25
+/dev/char/4:9 -> ../tty9
+/dev/char/4:90 -> ../ttyS26
+/dev/char/4:91 -> ../ttyS27
+/dev/char/4:92 -> ../ttyS28
+/dev/char/4:93 -> ../ttyS29
+/dev/char/4:94 -> ../ttyS30
+/dev/char/4:95 -> ../ttyS31
+/dev/char/506:0 -> ../kfd
+/dev/char/5:0 -> ../tty
+/dev/char/5:1 -> ../console
+/dev/char/5:2 -> ../ptmx
+/dev/char/5:3 -> ../ttyprintk
+/dev/char/7:0 -> ../vcs
+/dev/char/7:1 -> ../vcs1
+/dev/char/7:10 -> ../vcs10
+/dev/char/7:128 -> ../vcsa
+/dev/char/7:129 -> ../vcsa1
+/dev/char/7:130 -> ../vcsa2
+/dev/char/7:131 -> ../vcsa3
+/dev/char/7:132 -> ../vcsa4
+/dev/char/7:133 -> ../vcsa5
+/dev/char/7:134 -> ../vcsa6
+/dev/char/7:138 -> ../vcsa10
+/dev/char/7:2 -> ../vcs2
+/dev/char/7:3 -> ../vcs3
+/dev/char/7:4 -> ../vcs4
+/dev/char/7:5 -> ../vcs5
+/dev/char/7:6 -> ../vcs6
+/dev/char/7:64 -> ../vcsu
+/dev/char/7:65 -> ../vcsu1
+/dev/char/7:66 -> ../vcsu2
+/dev/char/7:67 -> ../vcsu3
+/dev/char/7:68 -> ../vcsu4
+/dev/char/7:69 -> ../vcsu5
+/dev/char/7:70 -> ../vcsu6
+/dev/char/7:74 -> ../vcsu10
+/dev/char/89:0 -> ../i2c-0
+/dev/char/89:1 -> ../i2c-1
+/dev/char/89:10 -> ../i2c-10
+/dev/char/89:11 -> ../i2c-11
+/dev/char/89:12 -> ../i2c-12
+/dev/char/89:2 -> ../i2c-2
+/dev/char/89:3 -> ../i2c-3
+/dev/char/89:4 -> ../i2c-4
+/dev/char/89:5 -> ../i2c-5
+/dev/char/89:6 -> ../i2c-6
+/dev/char/89:7 -> ../i2c-7
+/dev/char/89:8 -> ../i2c-8
+/dev/char/89:9 -> ../i2c-9
+/dev/console
+/dev/core -> /proc/kcore
+/dev/cpu_dma_latency
+/dev/cuse
+/dev/disk
+/dev/disk/by-diskseq
+/dev/disk/by-diskseq/1 -> ../../loop0
+/dev/disk/by-diskseq/10 -> ../../sda
+/dev/disk/by-diskseq/10-part1 -> ../../sda1
+/dev/disk/by-diskseq/12 -> ../../sr0
+/dev/disk/by-diskseq/2 -> ../../loop1
+/dev/disk/by-diskseq/20 -> ../../loop5
+/dev/disk/by-diskseq/23 -> ../../loop8
+/dev/disk/by-diskseq/25 -> ../../loop9
+/dev/disk/by-diskseq/27 -> ../../loop10
+/dev/disk/by-diskseq/29 -> ../../loop11
+/dev/disk/by-diskseq/3 -> ../../loop2
+/dev/disk/by-diskseq/31 -> ../../loop12
+/dev/disk/by-diskseq/33 -> ../../loop13
+/dev/disk/by-diskseq/36 -> ../../loop14
+/dev/disk/by-diskseq/37 -> ../../loop15
+/dev/disk/by-diskseq/4 -> ../../loop3
+/dev/disk/by-diskseq/40 -> ../../loop16
+/dev/disk/by-diskseq/5 -> ../../loop4
+/dev/disk/by-diskseq/7 -> ../../loop6
+/dev/disk/by-diskseq/8 -> ../../loop7
+/dev/disk/by-diskseq/9 -> ../../nvme0n1
+/dev/disk/by-diskseq/9-part1 -> ../../nvme0n1p1
+/dev/disk/by-diskseq/9-part2 -> ../../nvme0n1p2
+/dev/disk/by-diskseq/9-part3 -> ../../nvme0n1p3
+/dev/disk/by-dname
+XXXXXXXXXXXXXXXXXXXXXXXXX--vg-XXXXXX--lv -> ../../dm-0
+/dev/disk/by-id
+/dev/disk/by-id/ata-Slimtype_DVD_A_DU8AESH_21CB17974BCDBAF179FFC552D2D632F2 -> ../../sr0
+/dev/disk/by-id/ata-WDC_WD40EZRZ-00GXCB0_779D2C0F8AFC97C1E76B92B3949475A8 -> ../../sda
+/dev/disk/by-id/ata-WDC_WD40EZRZ-00GXCB0_779D2C0F8AFC97C1E76B92B3949475A8-part1 -> ../../sda1
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX--vg-XXXXXX--lv -> ../../dm-0
+/dev/disk/by-id/XXXXXXX-XXXXXXXXXXXXXXX -> ../../dm-1
+/dev/disk/by-id/dm-uuid-LVM-BA22F76C-0269-8140-C31A-8B32DD7E423C -> ../../dm-1
+/dev/disk/by-id/dm-uuid-LVM-A11F629B-5280-CBB8-E0FD-4617705815F2 -> ../../dm-0
+/dev/disk/by-id/lvm-pv-uuid-96BCFF47-3BC9-E36B-71CE-924CF5200303 -> ../../sda1
+/dev/disk/by-id/lvm-pv-uuid-AA2D0767-6166-E5E5-B8F6-B343942A134A -> ../../nvme0n1p3
+/dev/disk/by-id/nvme-SAMSUNG_MZVLB256HBHQ-00000_2BB5B441FB163C47FB309BB5F5972E7C -> ../../nvme0n1
+/dev/disk/by-id/nvme-SAMSUNG_MZVLB256HBHQ-00000_2BB5B441FB163C47FB309BB5F5972E7C-part1 -> ../../nvme0n1p1
+/dev/disk/by-id/nvme-SAMSUNG_MZVLB256HBHQ-00000_2BB5B441FB163C47FB309BB5F5972E7C-part2 -> ../../nvme0n1p2
+/dev/disk/by-id/nvme-SAMSUNG_MZVLB256HBHQ-00000_2BB5B441FB163C47FB309BB5F5972E7C-part3 -> ../../nvme0n1p3
+/dev/disk/by-id/nvme-SAMSUNG_MZVLB256HBHQ-00000_S4GGNE0M904053_424080C83D88EFCEDB495C13AAA6ED3A -> ../../nvme0n1
+/dev/disk/by-id/nvme-SAMSUNG_MZVLB256HBHQ-00000_S4GGNE0M904053_424080C83D88EFCEDB495C13AAA6ED3A-part1 -> ../../nvme0n1p1
+/dev/disk/by-id/nvme-SAMSUNG_MZVLB256HBHQ-00000_S4GGNE0M904053_424080C83D88EFCEDB495C13AAA6ED3A-part2 -> ../../nvme0n1p2
+/dev/disk/by-id/nvme-SAMSUNG_MZVLB256HBHQ-00000_S4GGNE0M904053_424080C83D88EFCEDB495C13AAA6ED3A-part3 -> ../../nvme0n1p3
+/dev/disk/by-id/nvme-eui.00253889910504de -> ../../nvme0n1
+/dev/disk/by-id/nvme-eui.00253889910504de-part1 -> ../../nvme0n1p1
+/dev/disk/by-id/nvme-eui.00253889910504de-part2 -> ../../nvme0n1p2
+/dev/disk/by-id/nvme-eui.00253889910504de-part3 -> ../../nvme0n1p3
+/dev/disk/by-id/scsi-0ATA_WDC_WD40EZRZ-00G_779D2C0F8AFC97C1E76B92B3949475A8 -> ../../sda
+/dev/disk/by-id/scsi-0ATA_WDC_WD40EZRZ-00G_779D2C0F8AFC97C1E76B92B3949475A8-part1 -> ../../sda1
+/dev/disk/by-id/scsi-1ATA_WDC_WD40EZRZ-00GXCB0_779D2C0F8AFC97C1E76B92B3949475A8 -> ../../sda
+/dev/disk/by-id/scsi-1ATA_WDC_WD40EZRZ-00GXCB0_779D2C0F8AFC97C1E76B92B3949475A8-part1 -> ../../sda1
+/dev/disk/by-id/scsi-350014ee2bbd69bf4 -> ../../sda
+/dev/disk/by-id/scsi-350014ee2bbd69bf4-part1 -> ../../sda1
+/dev/disk/by-id/scsi-SATA_WDC_WD40EZRZ-00G_779D2C0F8AFC97C1E76B92B3949475A8 -> ../../sda
+/dev/disk/by-id/scsi-SATA_WDC_WD40EZRZ-00G_779D2C0F8AFC97C1E76B92B3949475A8-part1 -> ../../sda1
+/dev/disk/by-id/wwn-0xE7F30256476564492942D540E900D57C -> ../../sda
+/dev/disk/by-id/wwn-0xE7F30256476564492942D540E900D57C-part1 -> ../../sda1
+/dev/disk/by-partlabel
+/dev/disk/by-partlabel/XXXXXXXXXXXXX -> ../../sda1
+/dev/disk/by-partuuid
+/dev/disk/by-partuuid/CAB1C08E-7A44-9DEA-9107-CFA221508947 -> ../../nvme0n1p2
+/dev/disk/by-partuuid/A6C804DC-A0BC-FD6E-9773-11023292C0F1 -> ../../nvme0n1p3
+/dev/disk/by-partuuid/F21C4B13-472F-4651-29B8-75DF8175D23F -> ../../sda1
+/dev/disk/by-partuuid/BE1A887C-07D0-C80E-C09D-F2240C6DA13B -> ../../nvme0n1p1
+/dev/disk/by-path
+/dev/disk/by-path/pci-0000:03:00.0-nvme-1 -> ../../nvme0n1
+/dev/disk/by-path/pci-0000:03:00.0-nvme-1-part1 -> ../../nvme0n1p1
+/dev/disk/by-path/pci-0000:03:00.0-nvme-1-part2 -> ../../nvme0n1p2
+/dev/disk/by-path/pci-0000:03:00.0-nvme-1-part3 -> ../../nvme0n1p3
+/dev/disk/by-path/pci-0000:74:03.0-ata-1 -> ../../sda
+/dev/disk/by-path/pci-0000:74:03.0-ata-1-part1 -> ../../sda1
+/dev/disk/by-path/pci-0000:74:03.0-ata-1.0 -> ../../sda
+/dev/disk/by-path/pci-0000:74:03.0-ata-1.0-part1 -> ../../sda1
+/dev/disk/by-path/pci-0000:74:03.0-ata-2 -> ../../sr0
+/dev/disk/by-path/pci-0000:74:03.0-ata-2.0 -> ../../sr0
+/dev/disk/by-uuid
+/dev/disk/by-uuid/DC71D09F-2D1E-68AB-8752-CC1AC8040D82 -> ../../dm-1
+/dev/disk/by-uuid/D538EE8E-7257-E639-3021-767869B39E85 -> ../../nvme0n1p2
+/dev/disk/by-uuid/6A49-2EF2 -> ../../nvme0n1p1
+/dev/disk/by-uuid/F05C5D99-76BB-66A9-5527-F53FCE494B78 -> ../../dm-0
+/dev/dm-0
+/dev/dm-1
+/dev/dma_heap
+/dev/dma_heap/reserved
+/dev/dma_heap/system
+/dev/dri
+/dev/dri/by-path
+/dev/dri/by-path/pci-0000:01:00.0-card -> ../card0
+/dev/dri/by-path/pci-0000:01:00.0-render -> ../renderD128
+/dev/dri/card0
+/dev/dri/renderD128
+/dev/ecryptfs
+/dev/fd -> /proc/self/fd
+/dev/full
+/dev/fuse
+/dev/gpiochip0
+/dev/gpiochip1
+/dev/gpiochip2
+/dev/hidraw0
+/dev/hugepages
+/dev/hwrng
+/dev/i2c-0
+/dev/i2c-1
+/dev/i2c-10
+/dev/i2c-11
+/dev/i2c-12
+/dev/i2c-2
+/dev/i2c-3
+/dev/i2c-4
+/dev/i2c-5
+/dev/i2c-6
+/dev/i2c-7
+/dev/i2c-8
+/dev/i2c-9
+/dev/infiniband
+/dev/infiniband/by-ibdev
+/dev/infiniband/by-ibdev/uverbs-hns_0 -> ../uverbs0
+/dev/infiniband/by-path
+/dev/infiniband/by-path/pci-0000:7d:00.0 -> ../uverbs0
+/dev/infiniband/uverbs0
+/dev/initctl -> /run/initctl
+/dev/input
+/dev/input/by-id
+/dev/input/by-id/usb-Generic_USB_Audio-event-if06 -> ../event1
+/dev/input/by-path
+/dev/input/by-path/pci-0000:7a:01.0-usb-0:1:1.6-event -> ../event1
+/dev/input/by-path/pci-0000:7a:01.0-usbv2-0:1:1.6-event -> ../event1
+/dev/input/event0
+/dev/input/event1
+/dev/input/event2
+/dev/input/mice
+/dev/kfd
+/dev/kmsg
+/dev/kvm
+/dev/log -> /run/systemd/journal/dev-log
+/dev/loop-control
+/dev/loop0
+/dev/loop1
+/dev/loop10
+/dev/loop11
+/dev/loop12
+/dev/loop13
+/dev/loop14
+/dev/loop15
+/dev/loop16
+/dev/loop2
+/dev/loop3
+/dev/loop4
+/dev/loop5
+/dev/loop6
+/dev/loop7
+/dev/loop8
+/dev/loop9
+/dev/mapper
+/dev/mapper/control
+XXXXXXXXXXXXXXXXXX--vg-XXXXXX--lv -> ../dm-0
+/dev/mapper/XXXXXXXXXXXXXXX -> ../dm-1
+/dev/mem
+/dev/mqueue
+/dev/net
+/dev/net/tun
+/dev/ng0n1
+/dev/null
+/dev/nvme0
+/dev/nvme0n1
+/dev/nvme0n1p1
+/dev/nvme0n1p2
+/dev/nvme0n1p3
+/dev/port
+/dev/ppp
+/dev/psaux
+/dev/ptmx
+/dev/pts
+/dev/pts/0
+/dev/pts/1
+/dev/pts/2
+/dev/pts/3
+/dev/pts/ptmx
+/dev/random
+/dev/rfkill
+/dev/rtc -> rtc0
+/dev/rtc0
+/dev/sda
+/dev/sda1
+/dev/sg0
+/dev/sg1
+/dev/shm
+/dev/snd
+/dev/snd/by-id
+/dev/snd/by-id/usb-Generic_USB_Audio-00 -> ../controlC1
+/dev/snd/by-path
+/dev/snd/by-path/pci-0000:01:00.1 -> ../controlC0
+/dev/snd/by-path/pci-0000:7a:01.0-usb-0:1:1.0 -> ../controlC1
+/dev/snd/by-path/pci-0000:7a:01.0-usbv2-0:1:1.0 -> ../controlC1
+/dev/snd/controlC0
+/dev/snd/controlC1
+/dev/snd/hwC0D0
+/dev/snd/pcmC0D3p
+/dev/snd/pcmC1D0c
+/dev/snd/pcmC1D0p
+/dev/snd/pcmC1D1c
+/dev/snd/pcmC1D1p
+/dev/snd/pcmC1D2c
+/dev/snd/seq
+/dev/snd/timer
+/dev/sr0
+/dev/stderr -> /proc/self/fd/2
+/dev/stdin -> /proc/self/fd/0
+/dev/stdout -> /proc/self/fd/1
+/dev/tty
+/dev/tty0
+/dev/tty1
+/dev/tty10
+/dev/tty11
+/dev/tty12
+/dev/tty13
+/dev/tty14
+/dev/tty15
+/dev/tty16
+/dev/tty17
+/dev/tty18
+/dev/tty19
+/dev/tty2
+/dev/tty20
+/dev/tty21
+/dev/tty22
+/dev/tty23
+/dev/tty24
+/dev/tty25
+/dev/tty26
+/dev/tty27
+/dev/tty28
+/dev/tty29
+/dev/tty3
+/dev/tty30
+/dev/tty31
+/dev/tty32
+/dev/tty33
+/dev/tty34
+/dev/tty35
+/dev/tty36
+/dev/tty37
+/dev/tty38
+/dev/tty39
+/dev/tty4
+/dev/tty40
+/dev/tty41
+/dev/tty42
+/dev/tty43
+/dev/tty44
+/dev/tty45
+/dev/tty46
+/dev/tty47
+/dev/tty48
+/dev/tty49
+/dev/tty5
+/dev/tty50
+/dev/tty51
+/dev/tty52
+/dev/tty53
+/dev/tty54
+/dev/tty55
+/dev/tty56
+/dev/tty57
+/dev/tty58
+/dev/tty59
+/dev/tty6
+/dev/tty60
+/dev/tty61
+/dev/tty62
+/dev/tty63
+/dev/tty7
+/dev/tty8
+/dev/tty9
+/dev/ttyAMA0
+/dev/ttyS0
+/dev/ttyS1
+/dev/ttyS10
+/dev/ttyS11
+/dev/ttyS12
+/dev/ttyS13
+/dev/ttyS14
+/dev/ttyS15
+/dev/ttyS16
+/dev/ttyS17
+/dev/ttyS18
+/dev/ttyS19
+/dev/ttyS2
+/dev/ttyS20
+/dev/ttyS21
+/dev/ttyS22
+/dev/ttyS23
+/dev/ttyS24
+/dev/ttyS25
+/dev/ttyS26
+/dev/ttyS27
+/dev/ttyS28
+/dev/ttyS29
+/dev/ttyS3
+/dev/ttyS30
+/dev/ttyS31
+/dev/ttyS4
+/dev/ttyS5
+/dev/ttyS6
+/dev/ttyS7
+/dev/ttyS8
+/dev/ttyS9
+/dev/ttyprintk
+/dev/XXXXXX-vg
+/dev/XXXXXX-vg/XXXXXX-lv -> ../dm-0
+/dev/udmabuf
+/dev/uhid
+/dev/uinput
+/dev/urandom
+/dev/userfaultfd
+/dev/userio
+/dev/vcs
+/dev/vcs1
+/dev/vcs10
+/dev/vcs2
+/dev/vcs3
+/dev/vcs4
+/dev/vcs5
+/dev/vcs6
+/dev/vcsa
+/dev/vcsa1
+/dev/vcsa10
+/dev/vcsa2
+/dev/vcsa3
+/dev/vcsa4
+/dev/vcsa5
+/dev/vcsa6
+/dev/vcsu
+/dev/vcsu1
+/dev/vcsu10
+/dev/vcsu2
+/dev/vcsu3
+/dev/vcsu4
+/dev/vcsu5
+/dev/vcsu6
+/dev/vfio
+/dev/vfio/vfio
+/dev/vg_data
+/dev/vg_data/XXXXXXX -> ../dm-1
+/dev/vga_arbiter
+/dev/vhci
+/dev/vhost-net
+/dev/vhost-vsock
+/dev/xconsole
+/dev/zero
+/dev/zfs

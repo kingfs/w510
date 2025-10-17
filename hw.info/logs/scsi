@@ -1,0 +1,7 @@
+Attached devices:
+Host: scsi1 Channel: 00 Id: 00 Lun: 00
+  Vendor: ATA      Model: WDC WD40EZRZ-00G Rev: 0A80
+  Type:   Direct-Access                    ANSI  SCSI revision: 05
+Host: scsi2 Channel: 00 Id: 00 Lun: 00
+  Vendor: Slimtype Model: DVD A  DU8AESH   Rev: 6C2M
+  Type:   CD-ROM                           ANSI  SCSI revision: 05

@@ -1,0 +1,31 @@
+I: Bus=0019 Vendor=0000 Product=0001 Version=0000
+N: Name="Power Button"
+P: Phys=PNP0C0C/button/input0
+S: Sysfs=/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C0C:00/input/input0
+U: Uniq=
+H: Handlers=kbd event0 
+B: PROP=0
+B: EV=3
+B: KEY=8000 10000000000000 0
+
+I: Bus=0003 Vendor=0bda Product=49ab Version=0111
+N: Name="Generic USB Audio"
+P: Phys=usb-0000:7a:01.0-1/input6
+S: Sysfs=/devices/pci0000:7a/0000:7a:01.0/usb2/2-1/2-1:1.6/0003:0BDA:49AB.0001/input/input1
+U: Uniq=
+H: Handlers=kbd event1 
+B: PROP=0
+B: EV=13
+B: KEY=40 0 0 0 0 0 0 3800000000 c000000000000 0
+B: MSC=10
+
+I: Bus=0000 Vendor=0000 Product=0000 Version=0000
+N: Name="HDA ATI HDMI HDMI/DP,pcm=3"
+P: Phys=ALSA
+S: Sysfs=/devices/pci0000:00/0000:00:00.0/0000:01:00.1/sound/card0/input2
+U: Uniq=
+H: Handlers=event2 
+B: PROP=0
+B: EV=21
+B: SW=140
+

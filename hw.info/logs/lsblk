@@ -1,0 +1,27 @@
+NAME                    SIZE TYPE FSTYPE      UUID                                   MOUNTPOINT                   MODEL                      PTTYPE PARTUUID
+loop0                     4K loop                                                    /snap/XXXXXX                                                   
+loop1                  59.6M loop                                                    /snap/XXXXXXXXXXX                                              
+loop2                  59.6M loop                                                    /snap/XXXXXXXXXXX                                              
+loop3                  68.9M loop                                                    /snap/XXXXXXXXXXX                                              
+loop4                  68.9M loop                                                    /snap/XXXXXXXXXXX                                              
+loop5                     0B loop                                                                                                                   
+loop6                 231.9M loop                                                    /snap/XXXXXXXXXXXX                                             
+loop7                 493.5M loop                                                    /snap/XXXXXXXXXXXXXXXXX                                        
+loop8                 493.6M loop                                                    /snap/XXXXXXXXXXXXXXXXX                                        
+loop9                  91.7M loop                                                    /snap/XXXXXXXXXXXXXXXXXXXXXX                                   
+loop10                 91.9M loop                                                    /snap/XXXXXXXXX                                                
+loop11                 91.9M loop                                                    /snap/XXXXXXXXX                                                
+loop12                 42.9M loop                                                    /snap/XXXXXXXXXXX                                              
+loop13                 44.2M loop                                                    /snap/XXXXXXXXXXX                                              
+loop14                233.3M loop                                                    /snap/XXXXXXXXXXXX                                             
+loop15                219.3M loop                                                    /snap/XXXXXXXXXXXXXXX                                          
+loop16                218.9M loop                                                    /snap/XXXXXXXXXXXXXXX                                          
+sda                     3.6T disk                                                                                 WDC WD40EZRZ-00G           gpt    
+sda1                    3.6T part LVM2_member 96BCFF47-3BC9-E36B-71CE-924CF5200303                                                         gpt    F21C4B13-472F-4651-29B8-75DF8175D23F
+sr0                    1024M rom                                                                                  Slimtype DVD A DU8AESH            
+XXXXXX--vg-XXXXXX--lv 235.4G lvm  ext4        F05C5D99-76BB-66A9-5527-F53FCE494B78   /                                                              
+vg_data-lv_data         3.6T lvm  ext4        DC71D09F-2D1E-68AB-8752-CC1AC8040D82   /data                                                          
+nvme0n1               238.5G disk                                                                                 SAMSUNG MZVLB256HBHQ-00000 gpt    
+nvme0n1p1                 1G part vfat        6A49-2EF2                              /boot/efi                                               gpt    BE1A887C-07D0-C80E-C09D-F2240C6DA13B
+nvme0n1p2                 2G part ext4        D538EE8E-7257-E639-3021-767869B39E85   /boot                                                   gpt    CAB1C08E-7A44-9DEA-9107-CFA221508947
+nvme0n1p3             235.4G part LVM2_member AA2D0767-6166-E5E5-B8F6-B343942A134A                                                         gpt    DEBCEAC5-0771-39C4-5B28-F4EEDE81EB97

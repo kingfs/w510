@@ -1,0 +1,324 @@
+{
+   "0" : {
+      "Bus" : null,
+      "Status" : "detected"
+   },
+   "bios:byosoft-1-11-02-07-2020" : {
+      "Bus" : "SYS",
+      "Device" : "BIOS 1.11 02/07/2020",
+      "Release Date" : "02/07/2020",
+      "Status" : "works",
+      "Type" : "bios",
+      "Vendor" : "Byosoft",
+      "Version" : "1.11"
+   },
+   "board:huawei-huaweipgu-wby0-pcb-d1031" : {
+      "Bus" : "SYS",
+      "Device" : "Motherboard HUAWEIPGU-WBY0-PCB D1031",
+      "Status" : "works",
+      "Type" : "motherboard",
+      "Vendor" : "HUAWEI",
+      "Version" : "D1031"
+   },
+   "cpu:hisilicon-huawei-kunpeng920-3211k" : {
+      "Bus" : "SYS",
+      "Count" : 24,
+      "Device" : "HUAWEI Kunpeng920 3211K",
+      "Status" : "works",
+      "Type" : "cpu",
+      "Vendor" : "HISILICON"
+   },
+   "ide:wdc-wd40ezrz-00gxcb0-serial-779d2c0f8afc97c1e76b92b3949475a8" : {
+      "Bus" : "IDE",
+      "Capacity" : "4TB",
+      "Device" : "WD40EZRZ-00GXCB0 4TB",
+      "Driver" : "ahci, sd",
+      "File" : "/dev/sda",
+      "Kind" : "HDD",
+      "Serial" : "779D2C0F8AFC97C1E76B92B3949475A8",
+      "Status" : "works",
+      "Type" : "disk",
+      "Vendor" : "WDC"
+   },
+   "mem:samsung-m471a2k43cb1-ctd-dimm-serial-5ca4c9e767a8d2e9e67d501eb8a2b226" : {
+      "Bus" : "SYS",
+      "Device" : "RAM M471A2K43CB1-CTD 16GB DIMM DDR4 2666MT/s",
+      "FF" : "DIMM",
+      "Kind" : "DDR4",
+      "Serial" : "5CA4C9E767A8D2E9E67D501EB8A2B226",
+      "Size" : "16GB",
+      "Speed" : "2666",
+      "Status" : "works",
+      "Type" : "memory",
+      "Vendor" : "Samsung"
+   },
+   "mem:samsung-m471a2k43cb1-ctd-dimm-serial-74a41f8b104372a0f8207eed3a61988e" : {
+      "Bus" : "SYS",
+      "Device" : "RAM M471A2K43CB1-CTD 16GB DIMM DDR4 2666MT/s",
+      "FF" : "DIMM",
+      "Kind" : "DDR4",
+      "Serial" : "74A41F8B104372A0F8207EED3A61988E",
+      "Size" : "16GB",
+      "Speed" : "2666",
+      "Status" : "works",
+      "Type" : "memory",
+      "Vendor" : "Samsung"
+   },
+   "nvme:samsung-mzvlb256hbhq-00000-serial-2bb5b441fb163c47fb309bb5f5972e7c" : {
+      "Bus" : "NVME",
+      "Capacity" : "256GB",
+      "Device" : "MZVLB256HBHQ-00000 256GB",
+      "Driver" : "nvme",
+      "File" : "/dev/nvme0n1",
+      "Firmware" : "EXH7101Q",
+      "IEEE_OUI" : "002538",
+      "Kind" : "NVMe",
+      "Model" : "MZVLB256HBHQ-00000",
+      "Serial" : "2BB5B441FB163C47FB309BB5F5972E7C",
+      "Status" : "works",
+      "Type" : "disk",
+      "Vendor" : "SAMSUNG"
+   },
+   "pci:1002-6611-1642-1871" : {
+      "Bus" : "PCI",
+      "Class" : "03-00-00",
+      "Device" : "Oland [Radeon HD 8570 / R5 430 OEM / R7 240/340 / Radeon 520 OEM]",
+      "Driver" : "",
+      "SDevice" : "Oland [Radeon HD 8570 / R5 430 OEM / R7 240/340 / Radeon 520 OEM]",
+      "SVendor" : "Bitland(ShenZhen) Information Technology Co., Ltd.",
+      "Status" : "failed",
+      "Type" : "graphics card",
+      "Vendor" : "Advanced Micro Devices, Inc. [AMD/ATI]"
+   },
+   "pci:1002-aab0-1642-aab0" : {
+      "Bus" : "PCI",
+      "Class" : "04-03-00",
+      "Device" : "Oland/Hainan/Cape Verde/Pitcairn HDMI Audio [Radeon HD 7000 Series]",
+      "Driver" : "snd_hda_intel",
+      "SDevice" : "Oland/Hainan/Cape Verde/Pitcairn HDMI Audio [Radeon HD 7000 Series]",
+      "SVendor" : "Bitland(ShenZhen) Information Technology Co., Ltd.",
+      "Status" : "detected",
+      "Type" : "sound",
+      "Vendor" : "Advanced Micro Devices, Inc. [AMD/ATI]"
+   },
+   "pci:144d-a808-144d-a801" : {
+      "Bus" : "PCI",
+      "Class" : "01-08-02",
+      "Device" : "NVMe SSD Controller SM981/PM981/PM983",
+      "Driver" : "nvme",
+      "SDevice" : "SSD 970 EVO/PRO",
+      "SVendor" : "Samsung Electronics Co Ltd",
+      "Status" : "works",
+      "Type" : "storage",
+      "Vendor" : "Samsung Electronics Co Ltd"
+   },
+   "pci:1912-0015-19e5-3e22" : {
+      "Bus" : "PCI",
+      "Class" : "0c-03-30",
+      "Device" : "uPD720202 USB 3.0 Host Controller",
+      "Driver" : "xhci_pci",
+      "SDevice" : "uPD720202 USB 3.0 Host Controller",
+      "SVendor" : "Huawei Technologies Co., Ltd.",
+      "Status" : "detected",
+      "Type" : "usb controller",
+      "Vendor" : "Renesas Technology Corp."
+   },
+   "pci:19e5-1103-19e5-0000" : {
+      "Bus" : "PCI",
+      "Class" : "02-80-00",
+      "Device" : "Network controller",
+      "SVendor" : "Huawei Technologies Co., Ltd.",
+      "Status" : "failed",
+      "Type" : "network",
+      "Vendor" : "Huawei Technologies Co., Ltd."
+   },
+   "pci:19e5-a120-19e5-371e" : {
+      "Bus" : "PCI",
+      "Class" : "06-04-00",
+      "Count" : 7,
+      "Device" : "HiSilicon PCIe Root Port with Gen4",
+      "Driver" : "pcieport",
+      "SDevice" : "HiSilicon PCIe Root Port with Gen4",
+      "SVendor" : "Huawei Technologies Co., Ltd.",
+      "Status" : "works",
+      "Type" : "bridge",
+      "Vendor" : "Huawei Technologies Co., Ltd."
+   },
+   "pci:19e5-a121" : {
+      "Bus" : "PCI",
+      "Class" : "06-04-00",
+      "Count" : 4,
+      "Device" : "HiSilicon PCI-PCI Bridge",
+      "Driver" : "pcieport",
+      "Status" : "works",
+      "Type" : "bridge",
+      "Vendor" : "Huawei Technologies Co., Ltd."
+   },
+   "pci:19e5-a122" : {
+      "Bus" : "PCI",
+      "Class" : "08-80-00",
+      "Device" : "HiSilicon Embedded DMA Engine",
+      "Status" : "failed",
+      "Type" : "system peripheral",
+      "Vendor" : "Huawei Technologies Co., Ltd."
+   },
+   "pci:19e5-a222" : {
+      "Bus" : "PCI",
+      "Class" : "02-00-00",
+      "Device" : "HNS GE/10GE/25GE RDMA Network Controller",
+      "Driver" : "hns3, hclge, hns_roce_hw_v2",
+      "Kind" : "Ethernet",
+      "Link detected" : "yes",
+      "Status" : "works",
+      "Type" : "network",
+      "Vendor" : "Huawei Technologies Co., Ltd."
+   },
+   "pci:19e5-a230" : {
+      "Bus" : "PCI",
+      "Class" : "01-07-00",
+      "Count" : 2,
+      "Device" : "HiSilicon SAS 3.0 HBA",
+      "Driver" : "hisi_sas_v3_hw",
+      "Status" : "detected",
+      "Type" : "storage",
+      "Vendor" : "Huawei Technologies Co., Ltd."
+   },
+   "pci:19e5-a235" : {
+      "Bus" : "PCI",
+      "Class" : "01-06-01",
+      "Device" : "HiSilicon AHCI HBA",
+      "Driver" : "ahci",
+      "Status" : "works",
+      "Type" : "storage",
+      "Vendor" : "Huawei Technologies Co., Ltd."
+   },
+   "pci:19e5-a238" : {
+      "Bus" : "PCI",
+      "Class" : "0c-03-30",
+      "Device" : "HiSilicon USB 3.0 Host Controller",
+      "Driver" : "xhci_pci",
+      "Status" : "detected",
+      "Type" : "usb controller",
+      "Vendor" : "Huawei Technologies Co., Ltd."
+   },
+   "pci:19e5-a239" : {
+      "Bus" : "PCI",
+      "Class" : "0c-03-20",
+      "Device" : "HiSilicon USB 2.0 2-port Host Controller",
+      "Driver" : "ehci_pci",
+      "Status" : "detected",
+      "Type" : "usb controller",
+      "Vendor" : "Huawei Technologies Co., Ltd."
+   },
+   "pci:19e5-a23b" : {
+      "Bus" : "PCI",
+      "Class" : "0c-03-10",
+      "Device" : "HiSilicon USB 1.1 Host Controller",
+      "Driver" : "ohci_pci",
+      "Status" : "detected",
+      "Type" : "usb controller",
+      "Vendor" : "Huawei Technologies Co., Ltd."
+   },
+   "pci:19e5-a255" : {
+      "Bus" : "PCI",
+      "Class" : "10-00-00",
+      "Device" : "HiSilicon SEC Engine",
+      "Driver" : "hisi_sec2",
+      "Status" : "detected",
+      "Type" : "network and computing encryption device",
+      "Vendor" : "Huawei Technologies Co., Ltd."
+   },
+   "pci:19e5-a25a" : {
+      "Bus" : "PCI",
+      "Class" : "01-04-00",
+      "Device" : "HiSilicon RDE Engine",
+      "Status" : "failed",
+      "Type" : "storage",
+      "Vendor" : "Huawei Technologies Co., Ltd."
+   },
+   "scsi:slimtype-dvd-a-du8aesh" : {
+      "Bus" : "SCSI",
+      "Device" : "DVD A DU8AESH",
+      "Driver" : "ahci, sr",
+      "Status" : "detected",
+      "Type" : "cdrom",
+      "Vendor" : "Slimtype"
+   },
+   "serial:serial-console" : {
+      "Bus" : "SERIAL",
+      "Device" : "serial console",
+      "Status" : "detected",
+      "Type" : "keyboard"
+   },
+   "usb:0bda-0411" : {
+      "Bus" : "USB",
+      "Class" : "09-00-00",
+      "Count" : 2,
+      "Device" : "Hub",
+      "Driver" : "onboard_usb_hub",
+      "Status" : "detected",
+      "Type" : "hub",
+      "Vendor" : "Realtek Semiconductor Corp."
+   },
+   "usb:0bda-49ab" : {
+      "ActiveDriver" : {},
+      "Bus" : "USB",
+      "Class" : "01-01-20",
+      "Device" : "USB Audio",
+      "Driver" : "snd_usb_audio",
+      "SDevice" : null,
+      "Status" : "detected",
+      "Type" : "audio",
+      "Vendor" : "Realtek Semiconductor Corp."
+   },
+   "usb:0bda-5411" : {
+      "Bus" : "USB",
+      "Class" : "09-00-01",
+      "Count" : 2,
+      "Device" : "RTS5411 Hub",
+      "Driver" : "onboard_usb_hub",
+      "SDevice" : "4-Port USB 2.1 Hub",
+      "Status" : "detected",
+      "Type" : "hub",
+      "Vendor" : "Realtek Semiconductor Corp."
+   },
+   "usb:1d6b-0001" : {
+      "Bus" : "USB",
+      "Class" : "09-00-00",
+      "Device" : "1.1 root hub",
+      "Driver" : "hub",
+      "Status" : "detected",
+      "Type" : "hub",
+      "Vendor" : "Linux Foundation"
+   },
+   "usb:1d6b-0002" : {
+      "Bus" : "USB",
+      "Class" : "09-00-00",
+      "Count" : 3,
+      "Device" : "2.0 root hub",
+      "Driver" : "hub",
+      "Status" : "detected",
+      "Type" : "hub",
+      "Vendor" : "Linux Foundation"
+   },
+   "usb:1d6b-0003" : {
+      "Bus" : "USB",
+      "Class" : "09-00-00",
+      "Count" : 2,
+      "Device" : "3.0 root hub",
+      "Driver" : "hub",
+      "Status" : "detected",
+      "Type" : "hub",
+      "Vendor" : "Linux Foundation"
+   },
+   "usb:27c6-5117" : {
+      "Bus" : "USB",
+      "Class" : "02-01-01",
+      "Device" : "Fingerprint Reader",
+      "SDevice" : "Goodix Fingerprint Device",
+      "SVendor" : "Shenzhen Goodix Technology Co.,Ltd.",
+      "Status" : "failed",
+      "Type" : "fingerprint reader",
+      "Vendor" : "Shenzhen Goodix Technology Co.,Ltd."
+   }
+}

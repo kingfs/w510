@@ -1,0 +1,22 @@
+/boot/efi
+/boot/efi/Arm
+/boot/efi/Arm/BIOS
+/boot/efi/Arm/BIOS/BiosDfxSerialLog1.txt
+/boot/efi/Arm/BIOS/BiosDfxSerialLog2.txt
+/boot/efi/Arm/BIOS/BiosDfxSerialLog3.txt
+/boot/efi/Arm/BIOS/BiosDfxSerialLog4.txt
+/boot/efi/Arm/BIOS/BiosDfxSerialLog5.txt
+/boot/efi/Arm/BIOS/BiosDfxShutdownCauseLog1.txt
+/boot/efi/BIOS
+/boot/efi/BIOS/Hi1620S PC Pangu BIOS Open Source Software Notice.txt
+/boot/efi/EFI
+/boot/efi/EFI/BOOT
+/boot/efi/EFI/BOOT/BOOTAA64.EFI
+/boot/efi/EFI/BOOT/fbaa64.efi
+/boot/efi/EFI/BOOT/mmaa64.efi
+/boot/efi/EFI/ubuntu
+/boot/efi/EFI/ubuntu/BOOTAA64.CSV
+/boot/efi/EFI/ubuntu/grubaa64.efi
+/boot/efi/EFI/ubuntu/grub.cfg
+/boot/efi/EFI/ubuntu/mmaa64.efi
+/boot/efi/EFI/ubuntu/shimaa64.efi

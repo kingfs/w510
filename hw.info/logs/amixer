@@ -1,0 +1,54 @@
+Card sysdefault:0 'HDMI'/'HDA ATI HDMI at 0xe0c60000 irq 279'
+  Mixer name	: 'ATI R6xx HDMI'
+  Components	: 'HDA:1002aa01,00aa0100,00100300'
+  Controls      : 7
+  Simple ctrls  : 1
+Simple mixer control 'IEC958',0
+  Capabilities: pswitch pswitch-joined
+  Playback channels: Mono
+  Mono: Playback [on]
+
+Card sysdefault:1 'Audio'/'Generic USB Audio at usb-0000:7a:01.0-1, high speed'
+  Mixer name	: 'USB Mixer'
+  Components	: 'USB0bda:49ab'
+  Controls      : 29
+  Simple ctrls  : 6
+Simple mixer control 'PCM',0
+  Capabilities: pvolume pswitch pswitch-joined
+  Playback channels: Front Left - Front Right
+  Limits: Playback 0 - 175
+  Mono:
+  Front Left: Playback 121 [69%] [-20.25dB] [on]
+  Front Right: Playback 121 [69%] [-20.25dB] [on]
+Simple mixer control 'PCM',1
+  Capabilities: pvolume pswitch pswitch-joined
+  Playback channels: Front Left - Front Right
+  Limits: Playback 0 - 175
+  Mono:
+  Front Left: Playback 121 [69%] [-20.25dB] [on]
+  Front Right: Playback 121 [69%] [-20.25dB] [on]
+Simple mixer control 'Line',0
+  Capabilities: cvolume cswitch cswitch-joined
+  Capture channels: Front Left - Front Right
+  Limits: Capture 0 - 47
+  Front Left: Capture 0 [0%] [-17.62dB] [off]
+  Front Right: Capture 0 [0%] [-17.62dB] [off]
+Simple mixer control 'Mic',0
+  Capabilities: cvolume cswitch cswitch-joined
+  Capture channels: Front Left - Front Right
+  Limits: Capture 0 - 47
+  Front Left: Capture 47 [100%] [0.00dB] [off]
+  Front Right: Capture 47 [100%] [0.00dB] [off]
+Simple mixer control 'Digital In',0
+  Capabilities: cvolume cswitch cswitch-joined
+  Capture channels: Front Left - Front Right
+  Limits: Capture 0 - 47
+  Front Left: Capture 47 [100%] [0.00dB] [on]
+  Front Right: Capture 47 [100%] [0.00dB] [on]
+Simple mixer control 'Headset',0
+  Capabilities: cvolume cswitch cswitch-joined
+  Capture channels: Front Left - Front Right
+  Limits: Capture 0 - 47
+  Front Left: Capture 47 [100%] [0.00dB] [on]
+  Front Right: Capture 47 [100%] [0.00dB] [on]
+

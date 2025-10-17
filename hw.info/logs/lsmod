@@ -1,0 +1,146 @@
+Module                  Size  Used by
+aes_ce_blk             36864  0
+aes_ce_cipher          12288  1 aes_ce_blk
+aes_neon_blk           28672  1 aes_neon_bs
+aes_neon_bs            24576  0
+ahci                   53248  1
+amdgpu              15527936  0
+amdxcp                 12288  1 amdgpu
+arm_spe_pmu            24576  0
+async_memcpy           16384  2 raid456,async_raid6_recov
+async_pq               16384  2 raid456,async_raid6_recov
+async_raid6_recov      24576  1 raid456
+async_tx               16384  5 async_pq,async_memcpy,async_xor,raid456,async_raid6_recov
+async_xor              16384  3 async_pq,raid456,async_raid6_recov
+authenc                12288  1 hisi_sec2
+autofs4                57344  4
+binfmt_misc            28672  1
+blake2b_generic        24576  0
+bluetooth            1024000  0
+bridge                401408  0
+btrfs                1929216  0
+cec                    94208  1 drm_display_helper
+cfg80211             1249280  0
+crct10dif_ce           12288  1
+dm_multipath           49152  0
+dmi_sysfs              24576  0
+drm_buddy              20480  1 amdgpu
+drm_display_helper    237568  2 amdgpu,radeon
+drm_exec               16384  1 amdgpu
+drm_suballoc_helper    20480  2 amdgpu,radeon
+drm_ttm_helper         12288  2 amdgpu,radeon
+ecc                    45056  1 ecdh_generic
+ecdh_generic           16384  1 bluetooth
+efi_pstore             12288  0
+ghash_ce               24576  0
+gpio_dwapb             24576  2
+gpu_sched              65536  1 amdgpu
+hclge                 380928  1
+hclge_common           32768  1 hclge
+hid                   184320  2 usbhid,hid_generic
+hid_generic            12288  0
+hisi_qm               126976  1 hisi_sec2
+hisi_sas_main          57344  1 hisi_sas_v3_hw
+hisi_sas_v3_hw        114688  0
+hisi_sec2              77824  0
+hisi_uncore_hha_pmu    24576  0
+hisi_uncore_l3c_pmu    20480  0
+hisi_uncore_pmu        24576  2 hisi_uncore_l3c_pmu,hisi_uncore_hha_pmu
+hnae3                  16384  3 hclge,hns3,hns_roce_hw_v2
+hns3                  159744  0
+hns_roce_hw_v2        208896  0
+i2c_algo_bit           16384  2 amdgpu,radeon
+ib_core               512000  2 hns_roce_hw_v2,ib_uverbs
+ib_uverbs             200704  1 hns_roce_hw_v2
+inet_diag              28672  1 tcp_diag
+ip_set                 65536  1 xt_set
+ip_tables              36864  0
+ipt_REJECT             12288  0
+joydev                 36864  0
+libcrc32c              12288  5 nf_conntrack,nf_nat,btrfs,nf_tables,raid456
+libsas                126976  2 hisi_sas_v3_hw,hisi_sas_main
+llc                    16384  2 bridge,stp
+mc                     98304  1 snd_usb_audio
+nf_conntrack          204800  6 xt_conntrack,nf_nat,nft_ct,xt_nat,nf_conntrack_netlink,xt_MASQUERADE
+nf_conntrack_netlink    57344  0
+nf_defrag_ipv4         12288  1 nf_conntrack
+nf_defrag_ipv6         24576  1 nf_conntrack
+nf_nat                 65536  3 xt_nat,nft_chain_nat,xt_MASQUERADE
+nf_reject_ipv4         20480  1 ipt_REJECT
+nf_tables             348160  1953 nft_queue,nft_ct,nft_compat,nft_chain_nat
+nfnetlink              20480  13 nfnetlink_queue,nft_compat,nfnetlink_acct,nf_conntrack_netlink,nf_tables,ip_set
+nfnetlink_acct         20480  3 xt_nfacct
+nfnetlink_queue        28672  1
+nft_chain_nat          12288  59
+nft_compat             24576  245
+nft_ct                 24576  1
+nft_queue              12288  8
+nls_iso8859_1          12288  1
+nvme                   61440  3
+nvme_auth              28672  1 nvme_core
+nvme_core             217088  4 nvme
+onboard_usb_hub        24576  0
+overlay               204800  43
+polyval_ce             12288  0
+polyval_generic        12288  1 polyval_ce
+qrtr                   49152  2
+radeon               2383872  0
+raid0                  24576  0
+raid1                  61440  0
+raid10                 77824  0
+raid456               212992  0
+raid6_pq              110592  4 async_pq,btrfs,raid456,async_raid6_recov
+rc_core                73728  1 cec
+realtek                36864  1
+sch_fq_codel           24576  25
+scsi_transport_sas     53248  3 hisi_sas_v3_hw,hisi_sas_main,libsas
+sha1_ce                12288  0
+sha256_arm64           24576  1 sha2_ce
+sha2_ce                20480  0
+sm4                    12288  0
+snd                   147456  12 snd_seq,snd_seq_device,snd_hda_codec_hdmi,snd_hwdep,snd_hda_intel,snd_usb_audio,snd_usbmidi_lib,snd_hda_codec,snd_timer,snd_ump,snd_pcm,snd_rawmidi
+snd_hda_codec         208896  2 snd_hda_codec_hdmi,snd_hda_intel
+snd_hda_codec_hdmi     94208  1
+snd_hda_core          163840  3 snd_hda_codec_hdmi,snd_hda_intel,snd_hda_codec
+snd_hda_intel          57344  0
+snd_hwdep              24576  2 snd_usb_audio,snd_hda_codec
+snd_intel_dspcfg       20480  1 snd_hda_intel
+snd_pcm               196608  5 snd_hda_codec_hdmi,snd_hda_intel,snd_usb_audio,snd_hda_codec,snd_hda_core
+snd_rawmidi            53248  3 snd_seq_midi,snd_usbmidi_lib,snd_ump
+snd_seq               126976  2 snd_seq_midi,snd_seq_midi_event
+snd_seq_device         16384  4 snd_seq,snd_seq_midi,snd_ump,snd_rawmidi
+snd_seq_midi           24576  0
+snd_seq_midi_event     20480  1 snd_seq_midi
+snd_timer              53248  2 snd_seq,snd_pcm
+snd_ump                45056  1 snd_usb_audio
+snd_usb_audio         487424  0
+snd_usbmidi_lib        49152  1 snd_usb_audio
+soundcore              16384  1 snd
+spi_dw                 36864  1 spi_dw_mmio
+spi_dw_mmio            12288  0
+st                     73728  0
+stp                    12288  1 bridge
+tcp_diag               12288  0
+tls                   159744  0
+ttm                   106496  3 amdgpu,radeon,drm_ttm_helper
+uacce                  20480  2 hisi_sec2,hisi_qm
+usbhid                 81920  0
+veth                   36864  0
+video                  81920  2 amdgpu,radeon
+x_tables               65536  13 xt_conntrack,xt_statistic,nft_compat,xt_tcpudp,xt_addrtype,xt_nat,xt_comment,xt_set,ipt_REJECT,xt_nfacct,ip_tables,xt_MASQUERADE,xt_mark
+xfrm_algo              20480  1 xfrm_user
+xfrm_user              57344  1
+xhci_pci               28672  0
+xhci_pci_renesas       24576  1 xhci_pci
+xor                    12288  2 async_xor,btrfs
+xor_neon               16384  1 xor
+xt_MASQUERADE          16384  10
+xt_addrtype            12288  7
+xt_comment             12288  65
+xt_conntrack           12288  26
+xt_mark                12288  4
+xt_nat                 12288  121
+xt_nfacct              12288  2
+xt_set                 20480  0
+xt_statistic           12288  3
+xt_tcpudp              20480  7

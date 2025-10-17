@@ -1,0 +1,239 @@
+Device:	00:00.0
+Class:	PCI bridge [0604]
+Vendor:	Huawei Technologies Co., Ltd. [19e5]
+Device:	HiSilicon PCIe Root Port with Gen4 [a120]
+SVendor:	Huawei Technologies Co., Ltd. [19e5]
+SDevice:	HiSilicon PCIe Root Port with Gen4 [371e]
+Rev:	21
+ProgIf:	00
+Driver:	pcieport
+
+Device:	00:08.0
+Class:	PCI bridge [0604]
+Vendor:	Huawei Technologies Co., Ltd. [19e5]
+Device:	HiSilicon PCIe Root Port with Gen4 [a120]
+SVendor:	Huawei Technologies Co., Ltd. [19e5]
+SDevice:	HiSilicon PCIe Root Port with Gen4 [371e]
+Rev:	21
+ProgIf:	00
+Driver:	pcieport
+
+Device:	00:0a.0
+Class:	PCI bridge [0604]
+Vendor:	Huawei Technologies Co., Ltd. [19e5]
+Device:	HiSilicon PCIe Root Port with Gen4 [a120]
+SVendor:	Huawei Technologies Co., Ltd. [19e5]
+SDevice:	HiSilicon PCIe Root Port with Gen4 [371e]
+Rev:	21
+ProgIf:	00
+Driver:	pcieport
+
+Device:	00:0c.0
+Class:	PCI bridge [0604]
+Vendor:	Huawei Technologies Co., Ltd. [19e5]
+Device:	HiSilicon PCIe Root Port with Gen4 [a120]
+SVendor:	Huawei Technologies Co., Ltd. [19e5]
+SDevice:	HiSilicon PCIe Root Port with Gen4 [371e]
+Rev:	21
+ProgIf:	00
+Driver:	pcieport
+
+Device:	00:0d.0
+Class:	PCI bridge [0604]
+Vendor:	Huawei Technologies Co., Ltd. [19e5]
+Device:	HiSilicon PCIe Root Port with Gen4 [a120]
+SVendor:	Huawei Technologies Co., Ltd. [19e5]
+SDevice:	HiSilicon PCIe Root Port with Gen4 [371e]
+Rev:	21
+ProgIf:	00
+Driver:	pcieport
+
+Device:	00:0e.0
+Class:	PCI bridge [0604]
+Vendor:	Huawei Technologies Co., Ltd. [19e5]
+Device:	HiSilicon PCIe Root Port with Gen4 [a120]
+SVendor:	Huawei Technologies Co., Ltd. [19e5]
+SDevice:	HiSilicon PCIe Root Port with Gen4 [371e]
+Rev:	21
+ProgIf:	00
+Driver:	pcieport
+
+Device:	00:0f.0
+Class:	PCI bridge [0604]
+Vendor:	Huawei Technologies Co., Ltd. [19e5]
+Device:	HiSilicon PCIe Root Port with Gen4 [a120]
+SVendor:	Huawei Technologies Co., Ltd. [19e5]
+SDevice:	HiSilicon PCIe Root Port with Gen4 [371e]
+Rev:	21
+ProgIf:	00
+Driver:	pcieport
+
+Device:	01:00.0
+Class:	VGA compatible controller [0300]
+Vendor:	Advanced Micro Devices, Inc. [AMD/ATI] [1002]
+Device:	Oland [Radeon HD 8570 / R5 430 OEM / R7 240/340 / Radeon 520 OEM] [6611]
+SVendor:	Bitland(ShenZhen) Information Technology Co., Ltd. [1642]
+SDevice:	Oland [Radeon HD 8570 / R5 430 OEM / R7 240/340 / Radeon 520 OEM] [1871]
+Rev:	87
+ProgIf:	00
+Driver:	radeon
+Module:	radeon
+Module:	amdgpu
+
+Device:	01:00.1
+Class:	Audio device [0403]
+Vendor:	Advanced Micro Devices, Inc. [AMD/ATI] [1002]
+Device:	Oland/Hainan/Cape Verde/Pitcairn HDMI Audio [Radeon HD 7000 Series] [aab0]
+SVendor:	Bitland(ShenZhen) Information Technology Co., Ltd. [1642]
+SDevice:	Oland/Hainan/Cape Verde/Pitcairn HDMI Audio [Radeon HD 7000 Series] [aab0]
+ProgIf:	00
+Driver:	snd_hda_intel
+Module:	snd_hda_intel
+
+Device:	03:00.0
+Class:	Non-Volatile memory controller [0108]
+Vendor:	Samsung Electronics Co Ltd [144d]
+Device:	NVMe SSD Controller SM981/PM981/PM983 [a808]
+SVendor:	Samsung Electronics Co Ltd [144d]
+SDevice:	SSD 970 EVO/PRO [a801]
+ProgIf:	02
+Driver:	nvme
+Module:	nvme
+
+Device:	04:00.0
+Class:	Network controller [0280]
+Vendor:	Huawei Technologies Co., Ltd. [19e5]
+Device:	Device [1103]
+SVendor:	Huawei Technologies Co., Ltd. [19e5]
+SDevice:	Device [0000]
+Rev:	02
+ProgIf:	00
+
+Device:	05:00.0
+Class:	USB controller [0c03]
+Vendor:	Renesas Technology Corp. [1912]
+Device:	uPD720202 USB 3.0 Host Controller [0015]
+SVendor:	Huawei Technologies Co., Ltd. [19e5]
+SDevice:	uPD720202 USB 3.0 Host Controller [3e22]
+Rev:	02
+ProgIf:	30
+Driver:	xhci_hcd
+Module:	xhci_pci
+
+Device:	74:00.0
+Class:	PCI bridge [0604]
+Vendor:	Huawei Technologies Co., Ltd. [19e5]
+Device:	HiSilicon PCI-PCI Bridge [a121]
+Rev:	20
+ProgIf:	00
+Driver:	pcieport
+
+Device:	74:01.0
+Class:	PCI bridge [0604]
+Vendor:	Huawei Technologies Co., Ltd. [19e5]
+Device:	HiSilicon PCI-PCI Bridge [a121]
+Rev:	20
+ProgIf:	00
+Driver:	pcieport
+
+Device:	74:02.0
+Class:	Serial Attached SCSI controller [0107]
+Vendor:	Huawei Technologies Co., Ltd. [19e5]
+Device:	HiSilicon SAS 3.0 HBA [a230]
+Rev:	21
+ProgIf:	00
+Driver:	hisi_sas_v3_hw
+Module:	hisi_sas_v3_hw
+
+Device:	74:03.0
+Class:	SATA controller [0106]
+Vendor:	Huawei Technologies Co., Ltd. [19e5]
+Device:	HiSilicon AHCI HBA [a235]
+Rev:	21
+ProgIf:	01
+Driver:	ahci
+Module:	ahci
+
+Device:	74:04.0
+Class:	Serial Attached SCSI controller [0107]
+Vendor:	Huawei Technologies Co., Ltd. [19e5]
+Device:	HiSilicon SAS 3.0 HBA [a230]
+Rev:	21
+ProgIf:	00
+Driver:	hisi_sas_v3_hw
+Module:	hisi_sas_v3_hw
+
+Device:	76:00.0
+Class:	Network and computing encryption device [1000]
+Vendor:	Huawei Technologies Co., Ltd. [19e5]
+Device:	HiSilicon SEC Engine [a255]
+Rev:	21
+ProgIf:	00
+Module:	hisi_sec2
+
+Device:	78:00.0
+Class:	PCI bridge [0604]
+Vendor:	Huawei Technologies Co., Ltd. [19e5]
+Device:	HiSilicon PCI-PCI Bridge [a121]
+Rev:	20
+ProgIf:	00
+Driver:	pcieport
+
+Device:	78:01.0
+Class:	RAID bus controller [0104]
+Vendor:	Huawei Technologies Co., Ltd. [19e5]
+Device:	HiSilicon RDE Engine [a25a]
+Rev:	21
+ProgIf:	00
+
+Device:	7a:00.0
+Class:	USB controller [0c03]
+Vendor:	Huawei Technologies Co., Ltd. [19e5]
+Device:	HiSilicon USB 1.1 Host Controller [a23b]
+Rev:	21
+ProgIf:	10
+Driver:	ohci-pci
+
+Device:	7a:01.0
+Class:	USB controller [0c03]
+Vendor:	Huawei Technologies Co., Ltd. [19e5]
+Device:	HiSilicon USB 2.0 2-port Host Controller [a239]
+Rev:	21
+ProgIf:	20
+Driver:	ehci-pci
+
+Device:	7a:02.0
+Class:	USB controller [0c03]
+Vendor:	Huawei Technologies Co., Ltd. [19e5]
+Device:	HiSilicon USB 3.0 Host Controller [a238]
+Rev:	21
+ProgIf:	30
+Driver:	xhci_hcd
+Module:	xhci_pci
+
+Device:	7b:00.0
+Class:	System peripheral [0880]
+Vendor:	Huawei Technologies Co., Ltd. [19e5]
+Device:	HiSilicon Embedded DMA Engine [a122]
+Rev:	21
+ProgIf:	00
+
+Device:	7c:00.0
+Class:	PCI bridge [0604]
+Vendor:	Huawei Technologies Co., Ltd. [19e5]
+Device:	HiSilicon PCI-PCI Bridge [a121]
+Rev:	20
+ProgIf:	00
+Driver:	pcieport
+
+Device:	7d:00.0
+Class:	Ethernet controller [0200]
+Vendor:	Huawei Technologies Co., Ltd. [19e5]
+Device:	HNS GE/10GE/25GE RDMA Network Controller [a222]
+Rev:	21
+ProgIf:	00
+Driver:	hns3
+Module:	hns3
+Module:	hclge
+Module:	hns_roce_hw_v2
+

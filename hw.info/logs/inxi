@@ -1,0 +1,118 @@
+System:
+  Kernel: 6.8.0-85-generic arch: aarch64 bits: 64 compiler: gcc v: 13.3.0
+    clocksource: arch_sys_counter
+  Console: pty pts/3 Distro: Ubuntu 24.04.3 LTS (Noble Numbat)
+Machine:
+  Type: Desktop Mobo: HUAWEI model: HUAWEIPGU-WBY0-PCB v: D1031 part-nu: C233
+    uuid: 20200304-246f-8c71-dd81-246f8c71dcb2 UEFI: Byosoft v: 1.11 date: 02/07/2020
+Memory:
+  System RAM: total: 32 GiB available: 31.19 GiB used: 9.95 GiB (31.9%)
+  Array-1: capacity: 32 GiB slots: 2 modules: 2 EC: None max-module-size: 16 GiB note: est.
+  Device-1: SOCKET 0 CHANNEL 1 DIMM 0 type: DDR4 detail: N/A size: 16 GiB speed: 2666 MT/s
+    volts: curr: 1.2 min: 1.14 max: 1.26 width (bits): data: 64 total: 64 manufacturer: Samsung
+    part-no: M471A2K43CB1-CTD
+  Device-2: SOCKET 0 CHANNEL 3 DIMM 0 type: DDR4 detail: N/A size: 16 GiB speed: 2666 MT/s
+    volts: curr: 1.2 min: 1.14 max: 1.26 width (bits): data: 64 total: 64 manufacturer: Samsung
+    part-no: M471A2K43CB1-CTD
+CPU:
+  Info: 24-core model: N/A bits: 64 type: MCP smt: <unsupported> arch: ARMv8 rev: 0 cache:
+    L1: 3 MiB L2: 12 MiB L3: 32 MiB
+  Speed: N/A min/max: N/A volts: 0.9 V ext-clock: 100 MHz cores: No per core speed data found.
+    bogomips: 4800
+  Features: Use -f option to see features
+Graphics:
+  Device-1: AMD Oland [Radeon HD 8570 / R5 430 OEM R7 240/340 Radeon 520 OEM]
+    vendor: Bitland Information driver: radeon v: kernel arch: GCN-1 pcie: speed: 8 GT/s lanes: 8
+    ports: active: none empty: HDMI-A-1,VGA-1 bus-ID: 01:00.0 chip-ID: 1002:6611 class-ID: 0300
+    temp: 46.0 C
+  Display: server: X.org v: 1.21.1.11 driver: X: loaded: radeon unloaded: fbdev,modesetting
+    dri: radeonsi gpu: radeon tty: 364x102
+  API: EGL v: 1.5 hw: drv: amd radeonsi platforms: device: 0 drv: radeonsi device: 1 drv: swrast
+    gbm: drv: radeonsi surfaceless: drv: radeonsi inactive: wayland,x11
+  API: OpenGL v: 4.5 vendor: mesa v: 25.0.7-0ubuntu0.24.04.2 note: console (EGL sourced)
+    renderer: OLAND (radeonsi ACO DRM 2.50 6.8.0-85-generic), llvmpipe (LLVM 20.1.2 128 bits)
+  API: Vulkan v: 1.3.275 layers: 2 surfaces: N/A device: 0 type: cpu driver: N/A
+    device-ID: 10005:0000
+Audio:
+  Device-1: AMD Oland/Hainan/Cape Verde/Pitcairn HDMI Audio [Radeon HD 7000 Series]
+    vendor: Bitland Information driver: snd_hda_intel v: kernel pcie: speed: 8 GT/s lanes: 8
+    bus-ID: 01:00.1 chip-ID: 1002:aab0 class-ID: 0403
+  Device-2: Realtek USB Audio driver: hid-generic,snd-usb-audio,usbhid type: USB rev: 2.0
+    speed: 480 Mb/s lanes: 1 bus-ID: 2-1:2 chip-ID: 0bda:49ab class-ID: 0300
+  API: ALSA v: k6.8.0-85-generic status: kernel-api
+  Server-1: PipeWire v: 1.0.5 status: off with: 1: pipewire-pulse status: off 2: wireplumber
+    status: off 3: pipewire-alsa type: plugin
+Network:
+  Device-1: Huawei driver: N/A pcie: speed: 5 GT/s lanes: 1 port: N/A bus-ID: 04:00.0
+    chip-ID: 19e5:1103 class-ID: 0280
+  Device-2: Huawei HNS GE/10GE/25GE RDMA Network driver: hns3 v: kernel pcie: speed: 2.5 GT/s
+    lanes: 1 port: N/A bus-ID: 7d:00.0 chip-ID: 19e5:a222 class-ID: 0200
+  IF: enp125s0f0 state: up speed: 1000 Mbps duplex: full
+  IF-ID-1: br-358738134fbd state: up speed: 10000 Mbps duplex: unknown
+  IF-ID-2: br-4385cfd8ce67 state: up speed: 10000 Mbps duplex: unknown
+  IF-ID-3: br-484233561c5e state: up speed: 10000 Mbps duplex: unknown
+  IF-ID-4: br-6c69f366f12f state: up speed: 10000 Mbps duplex: unknown
+  IF-ID-5: br-7e90fbdf8a42 state: up speed: 10000 Mbps duplex: unknown
+  IF-ID-6: br-fc00ab90b09c state: up speed: 10000 Mbps duplex: unknown
+  IF-ID-7: docker0 state: down
+  IF-ID-8: veth05bfb81 state: up speed: 10000 Mbps duplex: full
+  IF-ID-9: veth0714886 state: up speed: 10000 Mbps duplex: full
+  IF-ID-10: veth0b209a1 state: up speed: 10000 Mbps duplex: full
+  IF-ID-11: veth0f5e3cf state: up speed: 10000 Mbps duplex: full
+  IF-ID-12: veth10f89ee state: up speed: 10000 Mbps duplex: full
+  IF-ID-13: veth114f63e state: up speed: 10000 Mbps duplex: full
+  IF-ID-14: veth29302fc state: up speed: 10000 Mbps duplex: full
+  IF-ID-15: veth34b96d2 state: up speed: 10000 Mbps duplex: full
+  IF-ID-16: veth35e2c28 state: up speed: 10000 Mbps duplex: full
+  IF-ID-17: veth3d97ae7 state: up speed: 10000 Mbps duplex: full
+  IF-ID-18: veth451a7fd state: up speed: 10000 Mbps duplex: full
+  IF-ID-19: veth5d6dcce state: up speed: 10000 Mbps duplex: full
+  IF-ID-20: veth5fff039 state: up speed: 10000 Mbps duplex: full
+  IF-ID-21: veth8436c2e state: up speed: 10000 Mbps duplex: full
+  IF-ID-22: veth8ec6068 state: up speed: 10000 Mbps duplex: full
+  IF-ID-23: veth91fdf68 state: up speed: 10000 Mbps duplex: full
+  IF-ID-24: veth965281c state: up speed: 10000 Mbps duplex: full
+  IF-ID-25: veth979a43c state: up speed: 10000 Mbps duplex: full
+  IF-ID-26: veth9bbcb7c state: up speed: 10000 Mbps duplex: full
+  IF-ID-27: vethad893bb state: up speed: 10000 Mbps duplex: full
+  IF-ID-28: vethb615588 state: up speed: 10000 Mbps duplex: full
+  IF-ID-29: vethbbdb74a state: up speed: 10000 Mbps duplex: full
+  IF-ID-30: vethbd7ac2b state: up speed: 10000 Mbps duplex: full
+  IF-ID-31: vethcc4d39c state: up speed: 10000 Mbps duplex: full
+  IF-ID-32: vethcd21e90 state: up speed: 10000 Mbps duplex: full
+  IF-ID-33: vethd340ff7 state: up speed: 10000 Mbps duplex: full
+  IF-ID-34: vethd496346 state: up speed: 10000 Mbps duplex: full
+  IF-ID-35: vethe654088 state: up speed: 10000 Mbps duplex: full
+  IF-ID-36: vethe709f4c state: up speed: 10000 Mbps duplex: full
+  IF-ID-37: vethea216f8 state: up speed: 10000 Mbps duplex: full
+  IF-ID-38: vethef9a3a9 state: up speed: 10000 Mbps duplex: full
+  IF-ID-39: vethf2d8671 state: up speed: 10000 Mbps duplex: full
+  IF-ID-40: vethf4ca799 state: up speed: 10000 Mbps duplex: full
+  IF-ID-41: vethf6526ef state: up speed: 10000 Mbps duplex: full
+  IF-ID-42: vethf7a05a4 state: up speed: 10000 Mbps duplex: full
+RAID:
+  Hardware-1: Huawei HiSilicon RDE Engine driver: N/A v: N/A port: N/A bus-ID: 78:01.0
+    chip-ID: 19e5:a25a rev: N/A class-ID: 0104
+Drives:
+  Local Storage: total: 3.87 TiB used: 589.09 GiB (14.9%)
+  ID-1: /dev/nvme0n1 vendor: Samsung model: MZVLB256HBHQ-00000 size: 238.47 GiB speed: 31.6 Gb/s
+    lanes: 4 tech: SSD fw-rev: EXH7101Q temp: 45.9 C scheme: GPT
+  ID-2: /dev/sda vendor: Western Digital model: WD40EZRZ-00GXCB0 size: 3.64 TiB speed: 6.0 Gb/s
+    tech: N/A fw-rev: 0A80 scheme: GPT
+  Optical-1: /dev/sr0 vendor: Slimtype model: DVD A DU8AESH rev: 6C2M dev-links: cdrom
+  Features: speed: 24 multisession: yes audio: yes dvd: yes rw: cd-r,cd-rw,dvd-r state: running
+Partition:
+  ID-1: / size: 231.17 GiB used: 93.51 GiB (40.5%) fs: ext4 dev: /dev/dm-0
+    mapped: ubuntu--vg-ubuntu--lv
+  ID-2: /boot size: 1.9 GiB used: 204.9 MiB (10.5%) fs: ext4 dev: /dev/nvme0n1p2
+  ID-3: /boot/efi size: 1.05 GiB used: 6.6 MiB (0.6%) fs: vfat dev: /dev/nvme0n1p1
+Swap:
+  ID-1: swap-1 type: file size: 8 GiB used: 3 MiB (0.0%) priority: -2 file: /swap.img
+Sensors:
+  System Temperatures: cpu: N/A mobo: N/A gpu: radeon temp: 47.0 C
+  Fan Speeds (rpm): N/A
+Info:
+  Processes: 608 Power: uptime: 4d 8h 14m states: freeze,mem suspend: deep wakeups: 0
+    Init: systemd v: 255 target: graphical (5) default: graphical
+  Packages: 2207 pm: dpkg pkgs: 2197 pm: snap pkgs: 10 Compilers: clang: 18.1.3 gcc: 13.3.0
+    alt: 11 Shell: sh default: Bash v: 5.2.21 running-in: pty pts/3 (SSH) inxi: 3.3.34

@@ -1,0 +1,30 @@
+arch:aarch64
+boot_mode:BIOS
+cores:24
+display_manager:GDM3
+display_server:Tty
+dual_boot:0
+dual_boot_win:0
+filesystem:ext4
+hwaddr:2ee2b6c8bc6179136dffce2df82dc20f
+kernel:6.8.0-85-generic
+lang:zh_CN.UTF-8
+load_average:6.29, 6.45, 6.18
+model:HUAWEIPGU-WBY0
+nics:2
+op_modes:64-bit
+probe_ver:1.6
+ram_total:32707184
+ram_used:10391512
+sku_number:C233
+sockets:1
+space_total:3835.1
+space_used:590.21
+system:ubuntu-24.04
+system_version:24.04
+threads:1
+type:system on chip
+uuid:11DFA5B3-3C1D-8D67-1AAB-5F9928EB5721
+vendor:HUAWEI
+video_memory:1
+year:2020

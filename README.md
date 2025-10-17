@@ -33,3 +33,9 @@ sudo cp /boot/config-$(uname -r) ./KERNEL/kernel_config_working.txt
 sudo lshw -html > ./HARDWARE/hardware_profile.html
 sudo lspci -k > ./HARDWARE/pci_drivers.txt
 ```
+
+## 详细查看hardware信息
+
+```bash
+hw-probe -all
+```
