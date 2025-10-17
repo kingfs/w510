@@ -36,6 +36,8 @@ sudo lspci -k > ./HARDWARE/pci_drivers.txt
 
 ## 详细查看hardware信息
 
+* https://linux-hardware.org/?probe=49e1200724
+
 ```bash
 hw-probe -all
 ```
